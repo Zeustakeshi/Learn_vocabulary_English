@@ -1,0 +1,105 @@
+.btn {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: all 0.25s linear;
+    border-radius: 20px;
+}
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.todos {
+    list-style: none;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 30px auto 0;
+    border-radius: 25px;
+    transition: all 0.25 ease-in-out;
+}
+
+.todos li {
+    width: 100%;
+    transition: all 0.25 ease-in-out;
+    user-select: none;
+}
+
+.todos.theme-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.todo-wrapper:not(:first-child) {
+    border-top: 1px solid #eee;
+}
+
+.todo-wrapper.theme-dark:not(:first-child) {
+    border-top: 1px solid rgb(158, 154, 154);
+}
+.todo {
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.todo-content,
+.todo-sub-content {
+    flex: 1;
+    background-color: transparent;
+    overflow: auto;
+    overflow: -moz-scrollbars-none;
+    white-space: unset;
+    -ms-overflow-style: none;
+}
+
+.todo-content::-webkit-scrollbar,
+.todo-sub-content::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+
+.todo-sub-content {
+    padding: 10px 0 20px;
+    border-top: 1px solid rgba(238, 238, 238, 0.267);
+    transition: all 1s ease-out;
+    animation: showContent 0.5s ease-out;
+}
+
+@keyframes showContent {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.todos.theme-dark .todo-content,
+.todos.theme-dark .todo-sub-content {
+    color: #fff;
+}
+
+.btn-remove {
+    background-color: tomato;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .todos {
+        width: 100%;
+    }
+}

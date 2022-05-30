@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Learn_vocabulary_English/static/css/main.fca9c7be.css",
+    "main.js": "/Learn_vocabulary_English/static/js/main.a6e5cd8b.js",
+    "static/js/787.9ff709e1.chunk.js": "/Learn_vocabulary_English/static/js/787.9ff709e1.chunk.js",
+    "index.html": "/Learn_vocabulary_English/index.html",
+    "main.fca9c7be.css.map": "/Learn_vocabulary_English/static/css/main.fca9c7be.css.map",
+    "main.a6e5cd8b.js.map": "/Learn_vocabulary_English/static/js/main.a6e5cd8b.js.map",
+    "787.9ff709e1.chunk.js.map": "/Learn_vocabulary_English/static/js/787.9ff709e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fca9c7be.css",
+    "static/js/main.a6e5cd8b.js"
+  ]
+}

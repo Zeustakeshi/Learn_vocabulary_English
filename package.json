@@ -1,7 +1,7 @@
 {
-  "homepage": "https://Zeustakeshi.github.io/todolist-react-Deploy",
-  "name": "todolist_app",
-  "version": "0.2.0",
+  "homepage": "https://Zeustakeshi.github.io/Learn_vocabulary_English",
+  "name": "learn_english_app",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
